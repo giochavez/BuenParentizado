@@ -139,17 +139,3 @@ void ImprimirPila(){
     }
 
 }
-
-void ContarNodos(){
-    Nodo *nodo = cabeza;
-    int i=0;
-
-    while(nodo != NULL){
-        i++;
-        nodo = nodo->siguiente;
-    }
-
-    printf("\n Cantidad de nodos: %d\n", i);
-
-    return;
-}
